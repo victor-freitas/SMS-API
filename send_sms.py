@@ -1,8 +1,8 @@
 from twilio.rest import Client
 
-# Autenticando conforme os dados da twilio
-account_sid = "ACfc66b4b14d628083302caeddf357225a"
-auth_token = "cebe604c62b4c1376238934eff72a378"
+# Autenticando conforme a sua conta Twilio
+account_sid = "-- -- SEU SID -- --"
+auth_token = "-- -- SEU TOKEN -- --"
 
 client = Client(account_sid, auth_token)
 
