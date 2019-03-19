@@ -1,6 +1,6 @@
 from twilio.rest import Client
 
-# Autenticando o conforme os dados da twilio
+# Autenticando conforme os dados da twilio
 account_sid = "ACfc66b4b14d628083302caeddf357225a"
 auth_token = "cebe604c62b4c1376238934eff72a378"
 
