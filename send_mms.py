@@ -7,8 +7,10 @@ client = Client(account_sid, auth_token)
 
 # Criando um método que leva multiplos argumentos
 message = client.messages.create(
-    to="+551194955/4076",
+    body="Boa noite",
     from_="+18062791930",
-    body="Boa noite Professor")
+    media_url='https://demo.twilio.com/owl.png',
+    to="+5511995672655"
+                          )
 
 print(message.sid)
