@@ -10,7 +10,7 @@ message = client.messages.create(
     body="Segue em anexo uma imagem de uma coruja, NÃO É O GEMIDAO !!!!",
     from_="+18062791930",
     media_url='https://demo.twilio.com/owl.png',
-    to="+5511995672655"
+    to="+5511952948992"
                           )
 
 print(message.sid)

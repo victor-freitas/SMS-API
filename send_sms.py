@@ -7,7 +7,7 @@ client = Client(account_sid, auth_token)
 
 # Criando um método que leva multiplos argumentos
 message = client.messages.create(
-    to="+5511995672655",
+    to="+5511952948992",
     from_="+18062791930",
     body="Boa noite professor.")
 
