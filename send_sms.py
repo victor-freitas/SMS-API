@@ -9,6 +9,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
     to="+5511995672655",
     from_="+18062791930",
-    body="Boa noite, segue a imagem de uma coruja, NÃOOO É O GEMIDAO !!!!")
+    body="Boa noite, segue a imagem de uma coruja, NÃOOO É O GEMIDAO !!!!"),
+    media_url='https://demo.twilio.com/owl.png'
 
 print(message.sid)
